@@ -21,6 +21,6 @@ jobs:
     - name: Check the context of the repo
       run: ls
     - name: create a new dir
-      run: madir bobby
+      run: mkdir bobby
     - name: create a file 
       run: touch new.txt
