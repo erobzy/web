@@ -23,4 +23,4 @@ jobs:
     - name: create a new dir
       run: madir bobby
     - name: create a file 
-    - run: touch new.txt
+      run: touch new.txt
