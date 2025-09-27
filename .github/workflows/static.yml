@@ -13,13 +13,14 @@ on:
 
 
 jobs:
-  runs-on: ubuntu-latest
-  steps:
+  Check-system-properties:
+    runs-on: ubuntu-latest
+    steps:
     - name: Checkout
       uses: actions/checkout@v4
     - name: Check the context of the repo
-      runs: ls
+      run: ls
     - name: create a new dir
-      runs: madir bobby
+      run: madir bobby
     - name: create a file 
-    - runs: touch new.txt
+    - run: touch new.txt
