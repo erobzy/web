@@ -25,4 +25,4 @@ jobs:
     - name: create a file 
       run: touch new.txt
     - name: check memory
-      run: top
+      run: free
